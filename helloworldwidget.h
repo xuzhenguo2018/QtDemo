@@ -22,6 +22,11 @@ public slots:
     void OnClickShowHelloWorld();
     void OnShowLog(int a);
 
+private slots:
+    void on_BtnShowHello_clicked(bool checked);
+
+    void on_editShowHello_textChanged();
+
 private:
     Ui::HelloWorldWidget *ui;
 };
